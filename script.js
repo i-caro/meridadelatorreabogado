@@ -41,7 +41,7 @@
         .then(function(res){ return res.json(); })
         .then(function(data){
         if (data.success) {
-            msg.textContent = 'Gracias, tu mensaje se ha enviado correctamente. Te responderemos en menos de 24 horas laborables.';
+            msg.textContent = 'Gracias, tu mensaje se ha enviado correctamente. Te responderemos lo antes posible.';
             form.reset();
         } else {
             msg.textContent = 'No se ha podido enviar el mensaje. Inténtalo de nuevo en unos minutos.';

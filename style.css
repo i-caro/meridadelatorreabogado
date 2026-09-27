@@ -129,6 +129,14 @@ section{padding:90px 0;}
 .process-item h3{font-size:1rem;margin-bottom:8px;}
 .process-item p{font-size:0.9rem;color:var(--muted);}
 
+/* Events */
+.process-list{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--line);}
+.process-item{padding:28px 24px;border-right:1px solid var(--line);}
+.process-item:last-child{border-right:none;}
+.process-item .step{font-family:var(--serif);font-size:1.6rem;color:var(--accent-deep);margin-bottom:14px;}
+.process-item h3{font-size:1rem;margin-bottom:8px;}
+.process-item p{font-size:0.9rem;color:var(--muted);}
+
 /* Testimonials */
 .testi-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;}
 .testi{border-left:2px solid var(--accent);padding-left:24px;}
