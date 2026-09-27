@@ -23,7 +23,7 @@
     e.preventDefault();
 
     var accessKey = form.querySelector('[name="access_key"]').value;
-    if (!accessKey || accessKey === 'b0f5b491-e539-46b2-ac3b-f2dcd864098a') {
+    if (!accessKey || accessKey === 'TU_ACCESS_KEY_AQUI') {
         msg.textContent = 'Falta configurar la clave de Web3Forms en el HTML (name="access_key").';
         return;
     }
